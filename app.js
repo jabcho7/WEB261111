@@ -55,8 +55,8 @@ function renderCards(list) {
  <p class="year">${m.year}</p>
  </div>`;
  board.appendChild(card);
- document.getElementById("count").textContent = list.length + "편";
  }
+ document.getElementById("count").textContent = list.length + "편";
 }
 
 // sortBy : 영화 배열, 키 이름, 내림차순 여부 ⇒ 정렬한 새 배열(원본은 그대로)
